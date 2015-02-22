@@ -1,0 +1,67 @@
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+    /*Means nothing can sit beside it, it takes up entire width*/
+    display: block;
+}
+
+#main {
+    width: 70%;
+    text-align: center;
+}
+
+#button_holder {
+    width: 250px;
+    display: inline-block;
+}
+
+button {
+    background-color: #FFFFFF;
+    font-weight: bold;
+    color: #555555;
+    border: 1px solid #BBBBBB;
+    padding: 8px 5px;
+    font-size: 10px;
+    margin: 10px 5px;
+}
+
+#header {
+    text-align: right;
+}
+
+#spacer {
+    height: 130px;
+}
+
+form {
+    margin-bottom: 0px;
+}
+
+ul {
+    float: right;
+    margin-top: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 0 5px;
+    color: #555555;
+    font-size: 14px;
+}
+
+p {
+    text-align: center;
+    font-size: 14px;
+}
+
+input {
+    width: 550px;
+    font-size: 14px;
+    padding: 5px;
+    outline: none;
+}
+
+input:focus {
+    border: 1px solid #87CEEB;
+    outline: none;
+}
